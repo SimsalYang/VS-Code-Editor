@@ -1,6 +1,6 @@
 # VS Code Editor Technique
 
-Visual Studio Code 使用技巧
+Visual Studio Code 使用技巧(Windows)
 
 ## 1. 常用快捷键(keyboard shortcuts)
 
@@ -82,3 +82,37 @@ code -r -d foo.txt bar.txt
 ```bash
 ls | code -f -
 ```
+
+
+
+## 4. 双手不离键盘(Use Keyboard)
+
+核心键盘操作：光标移动、文本选择、文本删除、为编辑器命令绑定快捷键
+
+### 1. 光标移动
+
+- 把光标移动到单词的开头或末尾：`Ctrl` + `←` 或 `→` 。
+- 把光标移动到行首或行尾：`Home` 或 `End`
+- 光标在括号间切换：`Ctrl` + `Shift` + `\`  或 `Ctrl` + `B`。前提是光标在括号的位置
+- 移动到文档第一行或最后一行：`Ctrl` + `Home` 或 `End`
+
+### 2. 文本选择
+
+给以上命令多加一个 `Shift` 就可以达到选中光标跳转区间的所有文本。
+
+### 3. 删除操作
+
+- 删除光标后的所有字符：`Shift` + `Windows` + `Delete`
+- 删除光标前的所有字符：`Ctrl` + `Shift` + `Backspace`
+- 删除单词内的字符：`Ctrl` + `Delete` 删除光标后的字符，`Ctrl` + `Backspace` 删除光标前的字符。
+- 删除整行：`Ctrl` + `L`
+
+### 4. 自定义快捷键
+
+打开快捷键面板，搜索所要设置快捷键的命令名，也可以搜索快捷键，然后双击对应条目，在弹出界面上按下快捷键完成设置。
+
+### 5. 一些有用的快捷键
+
+- 整行代码上移或下移：`Ctrl` + `Shift` + `↑` 或 `↓`
+- 在上下行添加光标：`Ctrl` + `Alt` + `↑` 或 `↓`
+- 选中括号内的内容：需要自定义设置，名称为 Select to Bracket
